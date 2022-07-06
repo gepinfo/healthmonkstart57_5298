@@ -70,9 +70,9 @@ module.exports = {
             ],
             "environmentFiles": null,
             "environment": [{"name":"MONGO_DB_URL","value":"mongodb://admin:password@127.0.0.1:27017/healthmonkstart57_5298?authSource=admin"},{"name":"MONGO_DOMAIN","value":"127.0.0.1"},{"name":"SECURITYURL","value":"http://127.0.0.1:8003"},{"name":"AUTHPROXYURL","value":"http://127.0.0.1:8001"},{"name":"ADMINURL","value":"http://127.0.0.1:8004"},{"name":"GCAMURL","value":"http://127.0.0.1:8007"},{"name":"APIGATEWAY","value":"http://127.0.0.1:8000"},{"name":"SYSTEMCREDENTIALMANAGERURL","value":"http://127.0.0.1:8005"}
-            ,{"name":"SYSTEMENTRYURL","value":"http://127.0.0.1:8032"}
-            ,{"name":"MEDICATIONMANAGERURL","value":"http://healthmonkstart570.local:8034"}
-            ,{"name":"PRESCRIPTIONMANAGERURL","value":"http://healthmonkstart570.local:8035"}
+            ,{"name":"SYSTEMENTRYURL","value":"http://127.0.0.1:8036"}
+            ,{"name":"MEDICATIONMANAGERURL","value":"http://healthmonkstart570.local:8038"}
+            ,{"name":"PRESCRIPTIONMANAGERURL","value":"http://healthmonkstart570.local:8039"}
             ],
             "secrets": null,
             "mountPoints": [
@@ -294,7 +294,7 @@ module.exports = {
             ],
             "environmentFiles": null,
             "environment": [{"name":"MONGO_DB_URL","value":"mongodb://admin:password@127.0.0.1:27017/healthmonkstart57_5298?authSource=admin"},{"name":"MONGO_DOMAIN","value":"127.0.0.1"},{"name":"SECURITYURL","value":"http://127.0.0.1:8003"},{"name":"AUTHPROXYURL","value":"http://127.0.0.1:8001"},{"name":"ADMINURL","value":"http://127.0.0.1:8004"},{"name":"GCAMURL","value":"http://127.0.0.1:8007"},{"name":"APIGATEWAY","value":"http://127.0.0.1:8000"}
-            ,{"name":"SYSTEMENTRYURL","value":"http://127.0.0.1:8032"}
+            ,{"name":"SYSTEMENTRYURL","value":"http://127.0.0.1:8036"}
             ],
             "mountPoints": [
                 {
@@ -375,9 +375,9 @@ module.exports = {
             "essential": true,
             "portMappings": [
                 {
-                    "containerPort": "8032",
+                    "containerPort": "8036",
                     "protocol": "tcp",
-                    "hostPort": "8032"
+                    "hostPort": "8036"
                 }
             ],
             "environmentFiles": null,

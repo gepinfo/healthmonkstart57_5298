@@ -204,7 +204,7 @@ services:
     image: systementry-5298
     container_name: systementry-5298
     ports: 
-      - 8032:8032
+      - 8036:8036
     env_file: .env
     depends_on:
       - mongo
@@ -220,7 +220,7 @@ services:
     image: medicationmanager-5298
     container_name: medicationmanager-5298
     ports: 
-      - 8034:8034
+      - 8038:8038
     env_file: .env
     depends_on:
       - mongo
@@ -236,7 +236,7 @@ services:
     image: prescriptionmanager-5298
     container_name: prescriptionmanager-5298
     ports: 
-      - 8035:8035
+      - 8039:8039
     env_file: .env
     depends_on:
       - mongo
