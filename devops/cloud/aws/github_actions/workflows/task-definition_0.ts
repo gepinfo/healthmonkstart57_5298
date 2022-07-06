@@ -5,6 +5,50 @@ module.exports = {
     "inferenceAccelerators": [],
     "containerDefinitions": [
         {
+            "name": "foodmanager-5298",
+            "image": `${process.env.AWS_ACCOUNT_ID}.dkr.ecr.us-east-1.amazonaws.com/geppetto-generatedcode-healthmonkstart57-5298-foodmanager:latest`,
+            "memoryReservation": "300",
+            "resourceRequirements": null,
+            "essential": true,
+            "portMappings": [
+                {
+                    "containerPort": "8041",
+                    "protocol": "tcp",
+                    "hostPort": "8041"
+                }
+            ],
+            "environmentFiles": null,
+            "environment": [{"name":"MONGO_DB_URL","value":"mongodb://admin:password@healthmonkstart57.local:27017/healthmonkstart57_5298?authSource=admin"},{"name":"MONGO_DOMAIN","value":"healthmonkstart57.local"},{"name":"CAMUNDAPOD_URL","value":"http://healthmonkstart57.local:8080"},{"name":"SECURITYURL","value":"http://healthmonkstart57.local:8003"},{"name":"AUTHPROXYURL","value":"http://healthmonkstart57.local:8001"},{"name":"ADMINURL","value":"http://healthmonkstart57.local:8004"},{"name":"CAMUNDAURL","value":"http://healthmonkstart57.local:8002"},{"name":"GCAMURL","value":"http://healthmonkstart57.local:8007"},{"name":"APIGATEWAY","value":"http://healthmonkstart57.local:8000"}],
+            "secrets": null,
+            "mountPoints": [
+                {
+                  "readOnly": null,
+                  "containerPath": "/path/to/container",
+                  "sourceVolume": "healthmonkstart57"
+                }
+              ],
+            "volumesFrom": null,
+            "hostname": null,
+            "user": null,
+            "workingDirectory": null,
+            "extraHosts": null,
+            "logConfiguration": {
+                "logDriver": "awslogs",
+                "options": {
+                    "awslogs-group": "/ecs/healthmonkstart57",
+                    "awslogs-region": "us-east-1",
+                    "awslogs-stream-prefix": "ecs",
+                    "awslogs-create-group": "true"
+                }
+            },
+            "ulimits": null,
+            "dockerLabels": null,
+            "dependsOn": null,
+            "repositoryCredentials": {
+                "credentialsParameter": ""
+            }
+        },          
+        {
             "name": "medicationmanager-5298",
             "image": `${process.env.AWS_ACCOUNT_ID}.dkr.ecr.us-east-1.amazonaws.com/geppetto-generatedcode-healthmonkstart57-5298-medicationmanager:latest`,
             "memoryReservation": "300",
@@ -12,9 +56,9 @@ module.exports = {
             "essential": true,
             "portMappings": [
                 {
-                    "containerPort": "8038",
+                    "containerPort": "8042",
                     "protocol": "tcp",
-                    "hostPort": "8038"
+                    "hostPort": "8042"
                 }
             ],
             "environmentFiles": null,
@@ -56,9 +100,9 @@ module.exports = {
             "essential": true,
             "portMappings": [
                 {
-                    "containerPort": "8039",
+                    "containerPort": "8043",
                     "protocol": "tcp",
-                    "hostPort": "8039"
+                    "hostPort": "8043"
                 }
             ],
             "environmentFiles": null,

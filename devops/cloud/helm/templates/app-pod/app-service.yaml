@@ -24,6 +24,10 @@ spec:
     port: {{ .Values.service.systementry.port }}
     targetPort: {{ .Values.service.systementry.targetPort }}
 
+  - name: {{ .Values.service.foodmanager.name }}
+    port: {{ .Values.service.foodmanager.port }}
+    targetPort: {{ .Values.service.foodmanager.targetPort }}
+
   - name: {{ .Values.service.medicationmanager.name }}
     port: {{ .Values.service.medicationmanager.port }}
     targetPort: {{ .Values.service.medicationmanager.targetPort }}

@@ -137,6 +137,7 @@ services:
       - securitymanager
       - systemcredentialmanager
       - systementry
+      - foodmanager
       - medicationmanager
       - prescriptionmanager
 
@@ -204,7 +205,23 @@ services:
     image: systementry-5298
     container_name: systementry-5298
     ports: 
-      - 8036:8036
+      - 8040:8040
+    env_file: .env
+    depends_on:
+      - mongo
+    logging:
+      driver: "fluentd"
+      options:
+        fluentd-address: 0.0.0.0:24224
+        fluentd-async-connect: "true"
+        tag: fluent
+
+  foodmanager: 
+    build: ../../../application/services/custom_services/foodmanager
+    image: foodmanager-5298
+    container_name: foodmanager-5298
+    ports: 
+      - 8041:8041
     env_file: .env
     depends_on:
       - mongo
@@ -220,7 +237,7 @@ services:
     image: medicationmanager-5298
     container_name: medicationmanager-5298
     ports: 
-      - 8038:8038
+      - 8042:8042
     env_file: .env
     depends_on:
       - mongo
@@ -236,7 +253,7 @@ services:
     image: prescriptionmanager-5298
     container_name: prescriptionmanager-5298
     ports: 
-      - 8039:8039
+      - 8043:8043
     env_file: .env
     depends_on:
       - mongo

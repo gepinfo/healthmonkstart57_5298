@@ -5,5 +5,6 @@ export * from "./AdminController";
 export * from "./CamundaController";
 export * from "./systemcredentialmanagerController";
 export * from "./UserController";
+export * from "./foodController";
 export * from "./medicationController";
 export * from "./prescriptionController";

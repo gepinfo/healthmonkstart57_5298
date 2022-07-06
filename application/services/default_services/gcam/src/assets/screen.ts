@@ -13,9 +13,5 @@
 {"resources":"Active Details", "role":"Guest"}
     ,
 {"resources":"Summery Screens", "role":"Guest"}
-    ,
-{"resources":"nutrition food details screen", "role":"Guest"}
-    ,
-{"resources":"Nutration drink details", "role":"Guest"}
     
 ]
