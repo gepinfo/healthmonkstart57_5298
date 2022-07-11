@@ -1,60 +1,59 @@
-import { Request, Response } from 'express';
-import { prescriptionService } from '../service/prescriptionService';
+
 import { CustomLogger } from '../config/Logger'
-let prescription = new prescriptionService();
+
 
 export class prescriptionController {
     
     constructor() { }
     
-    public GpDelete(req: Request, res: Response) {
-prescription.GpDelete(req, (response) => {
-                new CustomLogger().showLogger('info', 'Enter into prescriptionController.ts: GpDelete');
+    public (req: Request, res: Response) {
+prescription.(req, (response) => {
+                new CustomLogger().showLogger('info', 'Enter into prescriptionController.ts: ');
      res.status(200);
      res.json(response);
-                new CustomLogger().showLogger('info', 'Exit from prescriptionController.ts: GpDelete');
+                new CustomLogger().showLogger('info', 'Exit from prescriptionController.ts: ');
     })}
-public GpSearch(req: Request, res: Response) {
-prescription.GpSearch(req, (response) => {
-                new CustomLogger().showLogger('info', 'Enter into prescriptionController.ts: GpSearch');
+public (req: Request, res: Response) {
+prescription.(req, (response) => {
+                new CustomLogger().showLogger('info', 'Enter into prescriptionController.ts: ');
      res.status(200);
      res.json(response);
-                new CustomLogger().showLogger('info', 'Exit from prescriptionController.ts: GpSearch');
+                new CustomLogger().showLogger('info', 'Exit from prescriptionController.ts: ');
     })}
-public GpSearchForUpdate(req: Request, res: Response) {
-prescription.GpSearchForUpdate(req, (response) => {
-                new CustomLogger().showLogger('info', 'Enter into prescriptionController.ts: GpSearchForUpdate');
+public (req: Request, res: Response) {
+prescription.(req, (response) => {
+                new CustomLogger().showLogger('info', 'Enter into prescriptionController.ts: ');
      res.status(200);
      res.json(response);
-                new CustomLogger().showLogger('info', 'Exit from prescriptionController.ts: GpSearchForUpdate');
+                new CustomLogger().showLogger('info', 'Exit from prescriptionController.ts: ');
     })}
-public GpUpdate(req: Request, res: Response) {
-prescription.GpUpdate(req, (response) => {
-                new CustomLogger().showLogger('info', 'Enter into prescriptionController.ts: GpUpdate');
+public (req: Request, res: Response) {
+prescription.(req, (response) => {
+                new CustomLogger().showLogger('info', 'Enter into prescriptionController.ts: ');
      res.status(200);
      res.json(response);
-                new CustomLogger().showLogger('info', 'Exit from prescriptionController.ts: GpUpdate');
+                new CustomLogger().showLogger('info', 'Exit from prescriptionController.ts: ');
     })}
-public GpGetNounById(req: Request, res: Response) {
-prescription.GpGetNounById(req, (response) => {
-                new CustomLogger().showLogger('info', 'Enter into prescriptionController.ts: GpGetNounById');
+public (req: Request, res: Response) {
+prescription.(req, (response) => {
+                new CustomLogger().showLogger('info', 'Enter into prescriptionController.ts: ');
      res.status(200);
      res.json(response);
-                new CustomLogger().showLogger('info', 'Exit from prescriptionController.ts: GpGetNounById');
+                new CustomLogger().showLogger('info', 'Exit from prescriptionController.ts: ');
     })}
-public GpGetAllValues(req: Request, res: Response) {
-prescription.GpGetAllValues(req, (response) => {
-                new CustomLogger().showLogger('info', 'Enter into prescriptionController.ts: GpGetAllValues');
+public (req: Request, res: Response) {
+prescription.(req, (response) => {
+                new CustomLogger().showLogger('info', 'Enter into prescriptionController.ts: ');
      res.status(200);
      res.json(response);
-                new CustomLogger().showLogger('info', 'Exit from prescriptionController.ts: GpGetAllValues');
+                new CustomLogger().showLogger('info', 'Exit from prescriptionController.ts: ');
     })}
-public GpCreate(req: Request, res: Response) {
-prescription.GpCreate(req, (response) => {
-                new CustomLogger().showLogger('info', 'Enter into prescriptionController.ts: GpCreate');
+public (req: Request, res: Response) {
+prescription.(req, (response) => {
+                new CustomLogger().showLogger('info', 'Enter into prescriptionController.ts: ');
      res.status(200);
      res.json(response);
-                new CustomLogger().showLogger('info', 'Exit from prescriptionController.ts: GpCreate');
+                new CustomLogger().showLogger('info', 'Exit from prescriptionController.ts: ');
     })}
 
 

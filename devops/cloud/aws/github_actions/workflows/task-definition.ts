@@ -70,10 +70,10 @@ module.exports = {
             ],
             "environmentFiles": null,
             "environment": [{"name":"MONGO_DB_URL","value":"mongodb://admin:password@127.0.0.1:27017/healthmonkstart57_5298?authSource=admin"},{"name":"MONGO_DOMAIN","value":"127.0.0.1"},{"name":"SECURITYURL","value":"http://127.0.0.1:8003"},{"name":"AUTHPROXYURL","value":"http://127.0.0.1:8001"},{"name":"ADMINURL","value":"http://127.0.0.1:8004"},{"name":"GCAMURL","value":"http://127.0.0.1:8007"},{"name":"APIGATEWAY","value":"http://127.0.0.1:8000"},{"name":"SYSTEMCREDENTIALMANAGERURL","value":"http://127.0.0.1:8005"}
-            ,{"name":"SYSTEMENTRYURL","value":"http://127.0.0.1:8040"}
-            ,{"name":"FOODMANAGERURL","value":"http://healthmonkstart570.local:8041"}
-            ,{"name":"MEDICATIONMANAGERURL","value":"http://healthmonkstart570.local:8042"}
-            ,{"name":"PRESCRIPTIONMANAGERURL","value":"http://healthmonkstart570.local:8043"}
+            ,{"name":"SYSTEMENTRYURL","value":"http://127.0.0.1:8010"}
+            ,{"name":"FOODMANAGERURL","value":"http://healthmonkstart570.local:8011"}
+            ,{"name":"MEDICATIONMANAGERURL","value":"http://healthmonkstart570.local:8012"}
+            ,{"name":"PRESCRIPTIONMANAGERURL","value":"http://healthmonkstart570.local:8013"}
             ],
             "secrets": null,
             "mountPoints": [
@@ -295,7 +295,7 @@ module.exports = {
             ],
             "environmentFiles": null,
             "environment": [{"name":"MONGO_DB_URL","value":"mongodb://admin:password@127.0.0.1:27017/healthmonkstart57_5298?authSource=admin"},{"name":"MONGO_DOMAIN","value":"127.0.0.1"},{"name":"SECURITYURL","value":"http://127.0.0.1:8003"},{"name":"AUTHPROXYURL","value":"http://127.0.0.1:8001"},{"name":"ADMINURL","value":"http://127.0.0.1:8004"},{"name":"GCAMURL","value":"http://127.0.0.1:8007"},{"name":"APIGATEWAY","value":"http://127.0.0.1:8000"}
-            ,{"name":"SYSTEMENTRYURL","value":"http://127.0.0.1:8040"}
+            ,{"name":"SYSTEMENTRYURL","value":"http://127.0.0.1:8010"}
             ],
             "mountPoints": [
                 {
@@ -376,9 +376,9 @@ module.exports = {
             "essential": true,
             "portMappings": [
                 {
-                    "containerPort": "8040",
+                    "containerPort": "8010",
                     "protocol": "tcp",
-                    "hostPort": "8040"
+                    "hostPort": "8010"
                 }
             ],
             "environmentFiles": null,

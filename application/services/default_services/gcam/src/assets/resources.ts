@@ -544,6 +544,156 @@ export const resource_types = [
       }
     }]
   },
+  {
+    "resource_name": "nutrition food details screen",
+    "resource_type": "screen",
+    "roles": [
+      "admin", "user"
+    ],
+    "components": [{
+      "label_1425": {
+        "id": "878979",
+        "roles": [ "admin" ]
+      },
+      "textbox_6272": {
+        "id": "135979",
+        "roles": [ "admin" ]
+      },
+      "label_2437": {
+        "id": "343979",
+        "roles": [ "admin" ]
+      },
+      "dropdown_73821": {
+        "id": "738291",
+        "roles": [ "admin" ]
+      }
+    }]
+  },
+  {
+    "resource_name": "Nutration drink details",
+    "resource_type": "screen",
+    "roles": [
+      "admin", "user"
+    ],
+    "components": [{
+      "label_1425": {
+        "id": "878979",
+        "roles": [ "admin" ]
+      },
+      "textbox_6272": {
+        "id": "135979",
+        "roles": [ "admin" ]
+      },
+      "label_2437": {
+        "id": "343979",
+        "roles": [ "admin" ]
+      },
+      "dropdown_73821": {
+        "id": "738291",
+        "roles": [ "admin" ]
+      }
+    }]
+  },
+  {
+    "resource_name": "nutrationfoodselecteddetails",
+    "resource_type": "screen",
+    "roles": [
+      "admin", "user"
+    ],
+    "components": [{
+      "label_1425": {
+        "id": "878979",
+        "roles": [ "admin" ]
+      },
+      "textbox_6272": {
+        "id": "135979",
+        "roles": [ "admin" ]
+      },
+      "label_2437": {
+        "id": "343979",
+        "roles": [ "admin" ]
+      },
+      "dropdown_73821": {
+        "id": "738291",
+        "roles": [ "admin" ]
+      }
+    }]
+  },
+  {
+    "resource_name": "nutrition food details screen 1",
+    "resource_type": "screen",
+    "roles": [
+      "admin", "user"
+    ],
+    "components": [{
+      "label_1425": {
+        "id": "878979",
+        "roles": [ "admin" ]
+      },
+      "textbox_6272": {
+        "id": "135979",
+        "roles": [ "admin" ]
+      },
+      "label_2437": {
+        "id": "343979",
+        "roles": [ "admin" ]
+      },
+      "dropdown_73821": {
+        "id": "738291",
+        "roles": [ "admin" ]
+      }
+    }]
+  },
+  {
+    "resource_name": "save meal popup screen",
+    "resource_type": "screen",
+    "roles": [
+      "admin", "user"
+    ],
+    "components": [{
+      "label_1425": {
+        "id": "878979",
+        "roles": [ "admin" ]
+      },
+      "textbox_6272": {
+        "id": "135979",
+        "roles": [ "admin" ]
+      },
+      "label_2437": {
+        "id": "343979",
+        "roles": [ "admin" ]
+      },
+      "dropdown_73821": {
+        "id": "738291",
+        "roles": [ "admin" ]
+      }
+    }]
+  },
+  {
+    "resource_name": "edited details popup screen",
+    "resource_type": "screen",
+    "roles": [
+      "admin", "user"
+    ],
+    "components": [{
+      "label_1425": {
+        "id": "878979",
+        "roles": [ "admin" ]
+      },
+      "textbox_6272": {
+        "id": "135979",
+        "roles": [ "admin" ]
+      },
+      "label_2437": {
+        "id": "343979",
+        "roles": [ "admin" ]
+      },
+      "dropdown_73821": {
+        "id": "738291",
+        "roles": [ "admin" ]
+      }
+    }]
+  },
   
     
 ]

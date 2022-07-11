@@ -13,5 +13,17 @@
 {"resources":"Active Details", "role":"Guest"}
     ,
 {"resources":"Summery Screens", "role":"Guest"}
+    ,
+{"resources":"nutrition food details screen", "role":"Guest"}
+    ,
+{"resources":"Nutration drink details", "role":"Guest"}
+    ,
+{"resources":"nutrationfoodselecteddetails", "role":"Guest"}
+    ,
+{"resources":"nutrition food details screen 1", "role":"Guest"}
+    ,
+{"resources":"save meal popup screen", "role":"Guest"}
+    ,
+{"resources":"edited details popup screen", "role":"Guest"}
     
 ]
